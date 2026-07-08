@@ -1,1 +1,3 @@
-document.getElementById("demo").innerHTML = "ยินดีด้วย! JavaScript ทำงานร่วมกับ GitHub Pages สำเร็จแล้ว";
+document.getElementById('btn').addEventListener('click', function() {
+    document.getElementById('result').innerText = '🚀 JavaScript ทำงานได้ปกติครับ!';
+});

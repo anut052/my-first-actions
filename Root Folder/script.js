@@ -1,0 +1,1 @@
+document.getElementById("demo").innerHTML = "ยินดีด้วย! JavaScript ทำงานร่วมกับ GitHub Pages สำเร็จแล้ว";

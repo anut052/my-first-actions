@@ -15,13 +15,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      
-      - name: Somnuek-001
+    
+      - name: anut-052
         uses: actions/checkout@v4
 
-
+     
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ 
+          publish_dir: ./
